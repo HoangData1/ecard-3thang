@@ -20,12 +20,13 @@ function Card() {
   return (
     <div className="card">
       <h1 className="fade-in">💖 Thiệp kỷ niệm 3 tháng 💖</h1>
-      {messages.slice(0, show).map((msg, index) => (
-        <p key={index} className="fade-in" style={{ animationDelay: `${index * 1}s` }}>{msg}</p>
-      ))}
-      {show === messages.length && (
-        <button className="btn" onClick={() => alert('💖 Anh yêu em nhiều lắm!')}>Bấm vào đây nè 💖</button>
-      )}
+      <div className="content-box">
+        {messages.slice(0, show).map((msg, index) => (
+          <p key={index} className="fade-in" style={{ animationDelay: `${index * 1}s` }}>
+            {msg}
+          </p>
+        ))}
+      </div>
     </div>
   );
 }
