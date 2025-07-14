@@ -2,7 +2,7 @@ import './Loading.css';
 
 function Loading({ onFinish }) {
   // Chuyển sau 4 giây
-  setTimeout(onFinish, 4000);
+  setTimeout(onFinish, 10000);
 
   return (
     <div className="loading-container">
