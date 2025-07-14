@@ -70,6 +70,27 @@ body, html {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
 
+.video-page {
+  background: rgba(0, 0, 0, 0.6);
+  background-size: cover;
+  min-height: 100vh;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  max-width: 800px;
+  width: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
 .video-box {
   margin-top: 20px;
   border-radius: 16px;
