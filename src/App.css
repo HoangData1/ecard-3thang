@@ -40,7 +40,7 @@ body, html {
 }
 
 .card {
-  background: url('/background.jpg') no-repeat center center fixed;
+  background: url('/background.png') no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
   display: flex;
