@@ -29,7 +29,9 @@ function Card() {
           </p>
         ))}
         {show === messages.length && (
-          <button className="btn" onClick={() => navigate('/video')}>Còn nữa...</button>
+          <button className="next-btn" onClick={() => navigate('/video')}>
+            Còn nữa...
+          </button>
         )}
       </div>
     </div>
