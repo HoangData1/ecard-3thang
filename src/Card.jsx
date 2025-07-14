@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 function Card() {
   const [show, setShow] = useState(0);
-  const [showVideo, setShowVideo] = useState(false);
+  const navigate = useNavigate();
 
   const messages = [
     'Ba tháng – không dài, nhưng đủ để thấy: Dù có lúc mệt mỏi, cả hai vẫn chọn ở lại bên nhau.',
@@ -27,19 +28,12 @@ function Card() {
             {msg}
           </p>
         ))}
-        {show === messages.length && !showVideo && (
-          <button className="btn" onClick={() => setShowVideo(true)}>Còn nữa...</button>
-        )}
-        {showVideo && (
-          <div className="video-box">
-            <video controls width="100%">
-              <source src="/video.mp4" type="video/mp4" />
-              Trình duyệt của bạn không hỗ trợ video.
-            </video>
-          </div>
+        {show === messages.length && (
+          <button className="btn" onClick={() => navigate('/video')}>Còn nữa...</button>
         )}
       </div>
     </div>
   );
 }
+
 export default Card;
