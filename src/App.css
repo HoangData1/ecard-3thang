@@ -176,3 +176,38 @@ p:nth-of-type(4) { animation-delay: 7s; }
   0%   { opacity: 0.5; }
   100% { opacity: 1; }
 }
+
+.next-btn {
+  margin-top: 30px;
+  padding: 12px 24px;
+  font-size: 1.2em;
+  background: #ff85a2;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.next-btn:hover {
+  background: #ff6f91;
+  transform: scale(1.05);
+}
+
+.back-btn {
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-size: 1em;
+  background: transparent;
+  color: #ffdede;
+  border: 2px solid #ffdede;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.back-btn:hover {
+  background: #ffdede;
+  color: #000;
+}
+

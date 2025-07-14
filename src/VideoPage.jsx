@@ -11,7 +11,9 @@ function VideoPage() {
           <source src="/video.mp4" type="video/mp4" />
           Trình duyệt của bạn không hỗ trợ video.
         </video>
-        <button className="btn" onClick={() => navigate('/')}>Quay lại trang đầu</button>
+        <button className="back-btn" onClick={() => navigate('/')}>
+        ← Quay lại trang thiệp
+        </button>
       </div>
     </div>
   );
