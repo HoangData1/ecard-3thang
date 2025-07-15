@@ -21,7 +21,7 @@ function Card() {
 
   return (
     <div className="card">
-      {/* <h1 className="fade-in">💌 Gửi đến Xuân Ly của Anh</h1> */}
+      <h1 className="fade-in">💌 Gửi đến Xuân Ly của Anh</h1>
       <div className="content-box">
         {messages.slice(0, show).map((msg, index) => (
           <p key={index} className="fade-in" style={{ animationDelay: `${index * 1}s` }}>
