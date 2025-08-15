@@ -19,7 +19,7 @@ export default function Card() {
           onClick={() => setOpened(true)}
         >
           <img
-            src="https://pngimg.com/d/flower_PNG54451.png"
+            // src="https://pngimg.com/d/flower_PNG54451.png"
             alt="flower left"
             className="absolute top-0 left-0 w-32 opacity-80"
           />
@@ -34,7 +34,7 @@ export default function Card() {
           onClick={() => setOpened(true)}
         >
           <img
-            src="https://pngimg.com/d/flower_PNG54454.png"
+            // src="https://pngimg.com/d/flower_PNG54454.png"
             alt="flower right"
             className="absolute bottom-0 right-0 w-32 opacity-80"
           />
