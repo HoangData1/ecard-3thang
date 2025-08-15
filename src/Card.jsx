@@ -4,7 +4,7 @@ export default function Card() {
   return (
     <div className="ecard-container">
       <div className="ecard">
-        <h2 className="ecard-invite">TRÂN TRỌNG KÍNH MỜI</h2>
+        <h2 className="ecard-invite">TRÂN TRỌNG KÍNH MỜI BÉ YÊU CỦA ANH</h2>
         <h1 className="ecard-names">Xuân Ly 💖 Huy Hoàng</h1>
         <p className="ecard-message">
           21h tối ngày <strong>15/08</strong> — Mời em tới dự tiệc kỷ niệm 4 tháng của đôi ta.
