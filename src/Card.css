@@ -4,9 +4,9 @@
   min-height: 100vh;
   background: linear-gradient(135deg, #e0f7fa, #f1f8e9); /* xanh pastel nhẹ */
   display: flex;
-  align-items: center;
   justify-content: center;
   padding: 16px;
+  overflow-y: auto; /* ✅ Cho phép cuộn dọc */
 }
 
 .ecard {
@@ -17,6 +17,7 @@
   max-width: 350px;
   text-align: center;
   animation: fadeIn 0.8s ease forwards;
+  margin: auto 0; /* ✅ Giúp nội dung vẫn ở giữa khi ngắn */
 }
 
 .ecard-invite {
