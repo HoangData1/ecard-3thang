@@ -2,7 +2,7 @@
 
 .ecard-container {
   min-height: 100vh;
-  background: linear-gradient(135deg, #ffe4e6, #fff9db);
+  background: linear-gradient(135deg, #e0f7fa, #f1f8e9); /* xanh pastel nhẹ */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,7 +10,7 @@
 }
 
 .ecard {
-  background: #fbcfe8;
+  background: #b2ebf2; /* xanh ngọc nhạt */
   padding: 24px;
   border-radius: 16px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.1);
@@ -28,7 +28,7 @@
 .ecard-names {
   font-family: 'Great Vibes', cursive;
   font-size: 32px;
-  color: #db2777;
+  color: #0288d1; /* xanh biển đậm */
   margin-bottom: 24px;
 }
 
