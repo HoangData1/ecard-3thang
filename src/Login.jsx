@@ -8,7 +8,7 @@ function Login({ onLoginSuccess }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (username === 'xuanly' && password === '15072025') {
+    if (username === 'xuanly' && password === '15082025') {
       onLoginSuccess();
     } else {
       setError('Sai tài khoản hoặc mật khẩu rồi đó 😢');

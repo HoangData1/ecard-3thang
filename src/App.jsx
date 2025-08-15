@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Landing from './Landing';
 import Card from './Card';
-import VideoPage from './VideoPage';
 import Loading from './Loading';
 import Login from './Login';
 
@@ -22,7 +21,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={!loggedIn ? <Login onLoginSuccess={() => setLoggedIn(true)} /> : <Main />} />
-        <Route path="/video" element={<VideoPage />} />
+        {/* <Route path="/video" element={<VideoPage />} /> */}
       </Routes>
     </BrowserRouter>
   );
